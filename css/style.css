@@ -1,0 +1,160 @@
+
+/*Header*/
+.bg-header {
+	background-image: url('../img/image1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 324px;
+	position: relative;
+	opacity: 0.9;
+}
+
+.container {
+	max-width: 1088px;
+	width: 100%;
+	margin:0 auto;
+}
+.first-block {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding-top: 30px;
+}
+.first-block h2 {
+	color:#fff;
+}
+.nav-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+li {
+	margin-right: 49px;
+}
+li a {
+	color: #fff;
+}
+
+li:last-child {
+	margin-right: 0;
+}
+.about-title {
+	font-size: 42px;
+	color: #fff;
+}
+.second-block {
+	position: absolute;
+	top:146px;
+}
+.home::after {
+	content: '';
+	height: 19px;
+	width: 1px;
+	background-color: #fff;
+	display: inline-block;
+}
+.about {
+	display: inline-block;
+	color: #fff;
+}
+.home {
+	display: inline-block;
+	color: #fff;
+}
+.burger-icon {
+	color: #fff;
+	font-size: 30px;
+	display: none;
+}
+
+
+/*Second Section*/
+.bg-section {
+	background-image: url('../img/image-section.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	padding-top: 92px;
+	padding-bottom: 90px;
+}
+.description {
+	font-size: 42px;
+	color: #fff;
+	max-width: 376px;
+	width: 100%;
+}
+.box-wraper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+
+}
+.box {
+	width: 260px;
+	height: 260px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.icon {
+	height: 32px;
+}
+.icon-box {
+	width: 59px;
+	height: 58px;
+	background-color: blue;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*Pseudo classes*/
+.test-box {
+	display: flex;
+	justify-content: space-between;
+}
+.test {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+/*.test:first-child {
+	background-color: yellow;
+}*/
+/*.test:nth-child(1) {
+
+}*/
+/*.test:last-child {
+	background-color: red;
+}*/
+/*.test:nth-child(4) {
+
+}
+*/
+/*.test:nth-child(2) {
+	background-color: black;
+
+}
+.test:nth-child(3) {
+	background-color: pink;
+}*/
+.test:nth-child(even) {
+	background-color: yellow;
+}
+.test:nth-child(odd) {
+	background-color: blue;
+}
+.test:last-child p {
+	color: red;
+}
+.test:nth-child(2) p{
+	color: aqua;
+}
